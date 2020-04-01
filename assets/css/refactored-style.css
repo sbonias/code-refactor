@@ -59,7 +59,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/*updated from ".hero" to "figure" to map to html file change*/
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -78,7 +79,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/*updated from ".content" to "section" to map to html file change*/
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -143,7 +145,8 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/*updated from ".search-engine-optimization" to "article"*/
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +155,8 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/*updated from ".online-reputation-management" to "article"*/
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,7 +165,8 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+/*updated from ".social-media-marketing" to "article"*/
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -170,29 +175,35 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/*updated from ".search-engine-optimization" to "article"*/
+article img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/*updated from ".online-reputation-management" to "article"*/
+article img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+/*updated from ".social-media-marketing" to "article"*/
+article img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/*updated from ".search-engine-optimization" to "article"*/
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/*updated from ".online-reputation-management" to "article"*/
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+/*updated from ".social-media-marketing" to "article"*/
+.article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
