@@ -60,11 +60,12 @@ p {
 }
 
 /*updated from ".hero" to "figure" to map to html file change*/
-figure {
+/*updated from "figure" to "figure img" to map to html file change*/
+figure img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    /*background-image: url("../images/digital-marketing-meeting.jpg"); (NO LONGER REQUIRED)*/
     background-size: cover;
     background-position: center;
 }
