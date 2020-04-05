@@ -8,23 +8,28 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/*updated from ".header""" to "header" to map to html file change*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+/*updated from ".header""" to "header" to map to html file change*/
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+/*updated from ".header""" to "header" to map to html file change*/
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*updated from ".header""" to "header" to map to html file change*/
+/*updated from "div" to "nav" to map to html file change*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +37,15 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/*updated from ".header""" to "header" to map to html file change*/
+/*updated from "div" to "nav" to map to html file change*/
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/*updated from ".header""" to "header" to map to html file change*/
+/*updated from "div" to "nav" to map to html file change*/
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,13 +59,17 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/*updated from ".hero" to "figure" to map to html file change*/
+/*updated from "figure" to "figure img" to map to html file change*/
+figure img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    /*background-image: url("../images/digital-marketing-meeting.jpg"); (NO LONGER REQUIRED)*/
     background-size: cover;
     background-position: center;
+    /*this was added so that the image didn't appear stretched*/
+    object-fit: cover;
 }
 
 .float-left {
@@ -69,13 +82,15 @@ p {
     margin-left: 25px;
 }
 
-.content {
+/*updated from ".content" to "section" to map to html file change*/
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/*updated from ".benefits" to "aside" to map to html file change*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,55 +101,65 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*updated from ".benefit-lead" to "summary" to map to html file change*/
+summary {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+/*updated from ".benefit-brand" to "summary" to map to html file change*/
+summary {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+/*updated from ".benefit-cost" to "summary" to map to html file change*/
+summary {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+/*updated from ".benefit-lead" to "summary" to map to html file change*/
+summary h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/*updated from ".benefit-brand" to "summary" to map to html file change*/
+summary h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+/*updated from ".benefit-cost" to "summary" to map to html file change*/
+summary h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+/*updated from ".benefit-lead" to "summary" to map to html file change*/
+summary img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/*updated from ".benefit-brand" to "summary" to map to html file change*/
+summary img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+/*updated from ".benefit-cost" to "summary" to map to html file change*/
+summary img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/*updated from ".search-engine-optimization" to "article" to map to html file change*/
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +168,8 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/*updated from ".online-reputation-management" to "article" to map to html file change*/
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +178,8 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+/*updated from ".social-media-marketing" to "article" to map to html file change*/
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,40 +188,48 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/*updated from ".search-engine-optimization" to "article" to map to html file change*/
+article img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/*updated from ".online-reputation-management" to "article" to map to html file change*/
+article img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+/*updated from ".social-media-marketing" to "article" to map to html file change*/
+article img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/*updated from ".search-engine-optimization" to "article" to map to html file change*/
+article h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    /*font-size: 36px;*/
 }
 
-.online-reputation-management h2 {
+/*updated from ".online-reputation-management" to "article" to map to html file change*/
+article h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    /*font-size: 36px;*/
 }
 
-.social-media-marketing h2 {
+/*updated from ".social-media-marketing" to "article" to map to html file change*/
+.article h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    /*font-size: 36px;*/
 }
 
-.footer {
+/*updated from ".footer" to "footer" to map to html file change*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/*updated from ".footer" to "footer" to map to html file change*/
+footer h2 {
     font-size: 20px;
 }
