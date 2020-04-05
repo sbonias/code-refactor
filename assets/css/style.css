@@ -99,6 +99,11 @@ article {
     color: #ffffff;
 }
 
+/*Added in pseudo-class for when hovering over nav bar items*/
+a:hover {
+    background-color: cornflowerblue;
+}
+
 /*updated from ".online-reputation-management" to "article" to map to html file change*/
 /*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
 to work*/
