@@ -108,16 +108,20 @@ summary {
 }
 
 /*updated from ".benefit-brand" to "summary" to map to html file change*/
-summary {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*summary {
     margin-bottom: 32px;
     color: #ffffff;
-}
+}*/
 
 /*updated from ".benefit-cost" to "summary" to map to html file change*/
-summary {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*summary {
     margin-bottom: 32px;
     color: #ffffff;
-}
+}*/
 
 /*updated from ".benefit-lead" to "summary" to map to html file change*/
 summary h3 {
@@ -126,16 +130,20 @@ summary h3 {
 }
 
 /*updated from ".benefit-brand" to "summary" to map to html file change*/
-summary h3 {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*summary h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+}*/
 
 /*updated from ".benefit-cost" to "summary" to map to html file change*/
-summary h3 {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*summary h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+}*/
 
 /*updated from ".benefit-lead" to "summary" to map to html file change*/
 summary img {
@@ -145,18 +153,22 @@ summary img {
 }
 
 /*updated from ".benefit-brand" to "summary" to map to html file change*/
-summary img {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*summary img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+}*/
 
 /*updated from ".benefit-cost" to "summary" to map to html file change*/
-summary img {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*summary img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+}*/
 
 /*updated from ".search-engine-optimization" to "article" to map to html file change*/
 article {
@@ -169,24 +181,28 @@ article {
 }
 
 /*updated from ".online-reputation-management" to "article" to map to html file change*/
-article {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}*/
 
 /*updated from ".social-media-marketing" to "article" to map to html file change*/
-article {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}*/
 
 /*updated from ".search-engine-optimization" to "article" to map to html file change*/
 article img {
@@ -194,14 +210,18 @@ article img {
 }
 
 /*updated from ".online-reputation-management" to "article" to map to html file change*/
-article img {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*article img {
     max-height: 200px;
-}
+}*/
 
 /*updated from ".social-media-marketing" to "article" to map to html file change*/
-article img {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*article img {
     max-height: 200px;
-}
+}*/
 
 /*updated from ".search-engine-optimization" to "article" to map to html file change*/
 article h2 {
@@ -210,16 +230,20 @@ article h2 {
 }
 
 /*updated from ".online-reputation-management" to "article" to map to html file change*/
-article h2 {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*article h2 {
     margin-bottom: 20px;
-    /*font-size: 36px;*/
-}
+    font-size: 36px;
+}*/
 
 /*updated from ".social-media-marketing" to "article" to map to html file change*/
-.article h2 {
+/*when I updated this class to a semantic element, it no longer made it unique and therefore didn't require its own css
+to work*/
+/*.article h2 {
     margin-bottom: 20px;
-    /*font-size: 36px;*/
-}
+    font-size: 36px;
+}*/
 
 /*updated from ".footer" to "footer" to map to html file change*/
 footer {
